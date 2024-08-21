@@ -5,7 +5,7 @@ import './index.css'
 import { UserContextProvider } from './context/userContext.jsx'
 import { CourseContextProvider } from './context/courseContext.jsx'
 
-export const server = 'http://localhost:5000'
+export const server = 'https://e-learning-backend-ck5x.onrender.com'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <UserContextProvider>
